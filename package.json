@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjasonclark/ole-db-demo"
+  },
   "scripts": {
     "build": "docker build -t oledb-demo:latest .",
     "start": "node src/index.js",
