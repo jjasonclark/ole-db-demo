@@ -4,7 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "build": "docker build -t oledb-demo:latest .",
+    "start": "node src/index.js",
+    "start-docker": "docker run --rm -it oledb-demo:latest"
   },
   "keywords": [],
   "author": "jason@jjasonclark.com",
